@@ -592,19 +592,16 @@ Some incredibly rare equipment may have a little star next to their name to sign
     - SQL Connections
     - Async data loading
     - Basically just a way to make data saving/handling easy
-- (Prod Ready!) NoorUtils
-    - Common utilities
+- (Put off till more relevant) NoorUtils
+    - ✅ Common utilities
     - Text formatting
-    - Menu/Item builders
-    - Time/math helpers
     - Validation logic
-- NoorDebug
     - Logging
     - Metrics
     - Test commands
     - Simulation tools
-- (Prod Ready!) NoorMenus
-    - GUI Handling
+- (Put off till more relevant) NoorMenus
+    - ✅ GUI Handling
     - Unified menu style
     - Nesting logic
 ## Economy
@@ -614,7 +611,6 @@ Some incredibly rare equipment may have a little star next to their name to sign
     - Tax hooks
     - Inflation controls
     - Economy events
-    - NPC Payment hooks
 - NoorJobs
     - Base jobs
     - XP handling
@@ -622,7 +618,7 @@ Some incredibly rare equipment may have a little star next to their name to sign
     - Job switching
     - Per-job event listeners
 - NoorMastery
-    - Tied into jobs
+    - Extension of jobs
     - Mastery paths
     - Mastery upgrades
     - Level 50+ perks
@@ -641,18 +637,18 @@ Some incredibly rare equipment may have a little star next to their name to sign
     - Buy-for-all logic
     - Visual crate animations
 ## Claims
-- NoorClaims
+- NoorTowns
     - Chunk claiming
     - Claim perms
     - Personal/town claims
     - Visual borders
-- NoorTowns
     - Town creation
     - Roles
     - Upgrades
     - Vaults
     - Assignment tracking
 - NoorNations
+    - Extension of towns
     - Nation creation
     - Alliances
     - Chat
@@ -664,46 +660,38 @@ Some incredibly rare equipment may have a little star next to their name to sign
     - Warp limits by rank
 ## NPCs
 - (Claimed - Chris) NoorNPCs
-    - NPC spawning
+    - ✅ NPC spawning
     - Reputation system
     - Dialogue system
     - Inventory & Money
     - Loyalty/Happiness decay
-- NoorNPCJobs 
-    - Job assignment
-    - Execution simulation
-    - Roll chances
+    - ✅ Job assignment
+    - ✅ Execution simulation
+    - ✅ Roll chances
     - Fatigue system
-    - Job resets
-- NoorNPCBuilder
-    - NPC schematics
-    - Build timers
-    - Level scaling
-    - Player-uploaded schematics
+    - ✅ Job resets
 ## Mobs
 - (Claimed - Milo) NoorEntities
-    - Custom mob handling
-    - Drop chances
+    - ✅ Custom mob handling
+    - ✅ Drop chances
     - Spawn circumstances
     - AI handling
 ## Items
 - (Prod Ready!) NoorItems
-    - Custom Item handling
-    - Metadata handling
-    - Star/perfect tagging
-    - Item protection rules
-- NoorTools
-    - Custom tools/armor
-    - Enchant rules
-    - Durability overrides
-    - Special behaviors
+    - ✅ Custom Item handling
+    - ✅ Metadata handling
+    - ✅ Custom tools/armor
+    - ✅ Enchant rules
+    - ✅ Durability overrides
+    - ✅ Special behaviors
 - NoorGeodes
     - Shards/catalysts
     - Roll logic
     - Perfect chance handling
     - Visual opening effects
 - NoorCosmetics
-    - We’ll get into this later idk
+    - Cosmetic Items logic
+    - Cosmetic Slot Handling
 ## Misc.
 - NoorQuests
     - Daily/Weekly quests
