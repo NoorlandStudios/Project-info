@@ -700,6 +700,11 @@ Some incredibly rare equipment may have a little star next to their name to sign
 - NoorEvents
     - Server-wide events
     - We’ll get into this later as well
+- NoorDungeons
+    - Dungeon generation
+    - Dungeon Themes
+    - Completion Rewards
+    - Bosses
 ## Roles
 - NoorAdmin
     - Moderation tools
