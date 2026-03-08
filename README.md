@@ -592,7 +592,7 @@ Some incredibly rare equipment may have a little star next to their name to sign
     - SQL Connections
     - Async data loading
     - Basically just a way to make data saving/handling easy
-- (Put off till more relevant) NoorUtils
+- NoorUtils
     - ✅ Common utilities
     - Text formatting
     - Validation logic
@@ -630,6 +630,7 @@ Some incredibly rare equipment may have a little star next to their name to sign
     - Tier tracking
     - Perks registration
     - Prestige hooks
+    - Store Ranks
 - NoorCrates
     - Low/Mid/High crates
     - Roll tables
@@ -711,8 +712,8 @@ Some incredibly rare equipment may have a little star next to their name to sign
     - Player inspections
     - Rollback hooks
     - Staff-only commands
-- NoorDonator
-    - Store ranks
+- NoorSupporter
+    - Donation logic
     - Subscription perks
     - XP Booster distribution
     - Discord sync hooks
