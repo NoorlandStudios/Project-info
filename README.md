@@ -713,7 +713,7 @@ Some incredibly rare equipment may have a little star next to their name to sign
     - Rollback hooks
     - Staff-only commands
 - NoorSupporter
-    - Donation logic
+    - Vote logic
     - Subscription perks
     - XP Booster distribution
     - Discord sync hooks
