@@ -582,12 +582,11 @@ Some incredibly rare equipment may have a little star next to their name to sign
 
 # Structure
 ## Backend
-- NoorCore
-    - Anti-cheat/Logging
-    - Global config
-    - Command framework
-    - Cross-plugin API
-    - Feature flags
+- (Prod Ready!) NoorCore
+    - ✅ Anti-cheat/Logging
+    - ✅ Global config
+    - ✅ Cross-plugin API
+    - ✅ Feature flags
 - NoorData
     - SQL Connections
     - Async data loading
