@@ -667,7 +667,7 @@ Some incredibly rare equipment may have a little star next to their name to sign
     - ✅ NPC spawning
     - Reputation system
     - Dialogue system
-    - Inventory & Money
+    - ✅ Inventory & Money
     - Loyalty/Happiness decay
     - ✅ Job assignment
     - ✅ Execution simulation
