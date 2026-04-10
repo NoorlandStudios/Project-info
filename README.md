@@ -582,20 +582,20 @@ Some incredibly rare equipment may have a little star next to their name to sign
 
 # Structure
 ## Backend
-- (Prod Ready!) NoorCore
+- (Prod Ready!) NoorCore **X$**
     - ✅ Anti-cheat/Logging
     - ✅ Global config
     - ✅ Cross-plugin API
     - ✅ Feature flags
-- NoorMisc
+- NoorMisc **X$**
     - RTP logic
     - Simple commands
     - Surface level stuff
-- NoorData
+- NoorData **X$**
     - SQL Connections
     - Async data loading
     - Basically just a way to make data saving/handling easy
-- NoorUtils
+- NoorUtils **X$**
     - ✅ Common utilities
     - Text formatting
     - Validation logic
@@ -603,45 +603,45 @@ Some incredibly rare equipment may have a little star next to their name to sign
     - Metrics
     - Test commands
     - Simulation tools
-- (Put off till more relevant) NoorMenus
+- NoorMenus **X$**
     - ✅ GUI Handling
     - Unified menu style
     - Nesting logic
 ## Economy
-- (Claimed - Chris) NoorEco
+- NoorEco **Web$**
     - Currency
     - Transactions
     - Tax hooks
     - Inflation controls
     - Economy events
-- NoorJobs
+- NoorJobs **X$**
     - Base jobs
     - XP handling
     - Payouts
     - Job switching
     - Per-job event listeners
-- NoorMastery
+- NoorMastery **$**
     - Extension of jobs
     - Mastery paths
     - Mastery upgrades
     - Level 50+ perks
     - Cross-job unlocks
 ## Ranks n Crates
-- NoorRanks
+- NoorRanks **$**
     - Rank definitions
     - Costs
     - Tier tracking
     - Perks registration
     - Prestige hooks
     - Store Ranks
-- NoorCrates
+- NoorCrates **$**
     - Low/Mid/High crates
     - Roll tables
     - Broadcast logic
     - Buy-for-all logic
     - Visual crate animations
 ## Claims
-- NoorTowns
+- NoorTowns **X$**
     - Chunk claiming
     - Claim perms
     - Personal/town claims
@@ -651,19 +651,19 @@ Some incredibly rare equipment may have a little star next to their name to sign
     - Upgrades
     - Vaults
     - Assignment tracking
-- NoorNations
+- NoorNations **$**
     - Extension of towns
     - Nation creation
     - Alliances
     - Chat
     - Shared perms
-- NoorWarps
+- NoorWarps **X$**
     - Player warps
     - Town warps
     - Nation warps
     - Warp limits by rank
 ## NPCs
-- (Claimed - Chris) NoorNPCs
+- NoorNPCs **$**
     - ✅ NPC spawning
     - Reputation system
     - Dialogue system
@@ -675,13 +675,13 @@ Some incredibly rare equipment may have a little star next to their name to sign
     - Fatigue system
     - ✅ Job resets
 ## Mobs
-- (Claimed - Milo) NoorEntities
+- NoorEntities **X$**
     - ✅ Custom mob handling
     - ✅ Drop chances
     - Spawn circumstances
     - AI handling
 ## Items
-- (Prod Ready!) NoorItems
+- (Prod Ready!) NoorItems **X$**
     - ✅ Custom Item handling
     - ✅ Metadata handling
     - ✅ Custom tools/armor
@@ -689,34 +689,34 @@ Some incredibly rare equipment may have a little star next to their name to sign
     - ✅ Durability overrides
     - ✅ Special behaviors
     - Kits logic
-- NoorGeodes
+- NoorGeodes **$**
     - Shards/catalysts
     - Roll logic
     - Perfect chance handling
     - Visual opening effects
-- NoorCosmetics
+- NoorCosmetics **$**
     - Cosmetic Items logic
     - Cosmetic Slot Handling
 ## Misc.
-- NoorQuests
+- NoorQuests **$**
     - Daily/Weekly quests
     - Rank-based quest pools
     - NPC quest hooks
-- NoorEvents
+- NoorEvents **X**
     - Server-wide events
     - We’ll get into this later as well
-- NoorDungeons
+- NoorDungeons **$**
     - Dungeon generation
     - Dungeon Themes
     - Completion Rewards
     - Bosses
 ## Roles
-- NoorAdmin
+- NoorAdmin **X$**
     - Moderation tools
     - Player inspections
     - Rollback hooks
     - Staff-only commands
-- NoorSupporter
+- NoorSupporter **$**
     - Vote logic
     - Subscription perks
     - XP Booster distribution
