@@ -587,6 +587,10 @@ Some incredibly rare equipment may have a little star next to their name to sign
     - ✅ Global config
     - ✅ Cross-plugin API
     - ✅ Feature flags
+- NoorMisc
+    - RTP logic
+    - Simple commands
+    - Surface level stuff
 - NoorData
     - SQL Connections
     - Async data loading
@@ -684,6 +688,7 @@ Some incredibly rare equipment may have a little star next to their name to sign
     - ✅ Enchant rules
     - ✅ Durability overrides
     - ✅ Special behaviors
+    - Kits logic
 - NoorGeodes
     - Shards/catalysts
     - Roll logic
