@@ -614,12 +614,12 @@ Some incredibly rare equipment may have a little star next to their name to sign
     - Tax hooks
     - Inflation controls
     - Economy events
-- NoorJobs **X$**
-    - Base jobs
-    - XP handling
-    - Payouts
-    - Job switching
-    - Per-job event listeners
+- (Prod Ready!)NoorJobs **X$**
+    - ✅ Base jobs
+    - ✅ XP handling
+    - ✅ Payouts
+    - ✅ Job switching
+    - ✅ Per-job event listeners
 - NoorMastery **$**
     - Extension of jobs
     - Mastery paths
