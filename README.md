@@ -1,568 +1,313 @@
 # Core Stack
 ## Ranks & Perms
 > All ranks get access to 1 Tier 1, Tier 2, or Tier 3 Crate upon leveling up depending on where in the Ranks path someone is.
-<details>
-<summary style="font-size: 1.5em; font-weight: bold;">Tier 1</summary>
 
-<details>
-<summary>Newcomer – Free</summary>
-
-- /sethome & /home (1 Home)
-- /msg & /reply (Send private messages)
-- /tpa (request teleport to another player)
-- /rtp (3 Minute Cooldown)
-- /trash (Virtual trash disposal)
-</details>
-
-<details>
-<summary>Settler – $10,000</summary>
-
-- /craft (Virtual crafting table)
-- /furnace (Virtual Furnace)
-- Claim 4 Personal Chunks of Land for Free!
-</details>
-
-<details>
-<summary>Laborer - $15,000</summary>
-
-- /condense (Condense items into their block variants)
-- /blastfurn (Virtual Blastfurnace)
-- Unlock Mastery Path for 1 Job
-</details>
-
-<details>
-<summary>Apprentice - $25,000</summary>
-
-- 2 Homes
-- /anvil (Virtual Anvil)
-- /stonecutter (Virtual Stonecutter)
-- /back (not on death, 5 minute cooldown)
-</details>
-
-<details>
-<summary>Citizen - $50,000</summary>
-
-- Ability to create a Town
-- 3 Homes
-- /hat
-- Unlock Mastery Path for 2 Jobs!
-</details>
-
-<details>
-<summary>Merchant - $75,000</summary>
-
-- Create 1 PlayerWarp (/pw)
-- Create ChestShops
-- Access to AuctionHouse (/ah)
-    - 3 Listings
-</details>
-
-<details>
-<summary>Artisan - $150,000</summary>
-
-- /cartography (Virtual Cartography Table)
-- /loom (Virtual loom)
-- /grindstone (Virtual Grindstone)
-- Ability to Craft Concrete
-</details>
-
-<details>
-<summary>Prospector - $200,000</summary>
-
-- RTP Cooldown lowered (1 Minute)
-- 1 Extra Daily Quest
-- Access to /hdb (Head Data Base)
-</details>
-
-<details>
-<summary>Explorer - $350,000</summary>
-
-- Access to /ptime
-- Access to /pweather
-- /ec (Virtual EnderChest)
-- Mastery Path for 3 jobs!
-- 1 Weekly Low Level Crate
-- ONE-TIME 1 High Level Crate
-- ONE-TIME Unique Cosmetic!
-</details>
-
-> TOTAL - $875,000
-
-</details>
-
-<details>
-<summary style="font-size: 1.5em; font-weight: bold;">Tier 2</summary>
-
-<details>
-<summary>Captain - $500,000</summary>
-
--  Access to /heal (2 Min Cooldown)
--  /near (Rad. 200 See which players are within radius)
--  Access to 2 items in Auction House
--  Access to /show
-</details>
-
-<details>
-<summary>Magistrate - $1,000,000</summary>
-
--  /speed (Permanent Speed II Buff)
--  Access to 1 PlayerVault (/pv 1)
--  /nick (No Color)
--  Mastery Path for 4 jobs!
--  ONE-TIME Unique Cosmetic!
-</details>
-
-<details>
-<summary>Baron - $1,500,000</summary>
-
--  5 Homes
--  Second PlayerWarp (/pw 2)
--  Extra Daily Reward
--  Ability to create a Nation!
-</details>
-
-<details>
-<summary>Count - $2,500,000</summary>
-
--  Access to /repair (2 Hour Cooldown)
--  Access to /rename (Rename Items)
--  /jumpboost (Permanent Jump Boost II Buff)
-</details>
-
-<details>
-<summary>Viscount - $4,000,000</summary>
-
--  Access to 2 PlayerVaults (/pv 1&2)
--  Create a Second player warp!
--  2 Extra Daily Quests!
--  Mastery Path for 5 jobs!
-</details>
-
-<details>
-<summary>Earl - $6,500,000</summary>
-
--  /nick (with color, non Gradient)
--  7 Homes
--  Create 1 Shared PlayerVault with up to 3 Players!
-</details>
-
-<details>
-<summary>Marquis - $10,000,000</summary>
-
--  Set custom Item Lore!
--  Access to /feed (2 Minute Cooldown)
--  Access to 3 PlayerVaults
--  Keep Experience on Death
-</details>
-
-<details>
-<summary>Duke - $11,500,000</summary>
-
--  /glow
--  /strength (Permanent Strength II)
--  Dual Town Citizenship! (Join/Create a second town)
--  /back (on death, 5 min cooldown)
--  Mastery Path for 6 jobs!
-</details>
-
-<details>
-<summary>Governor - $12,500,000</summary>
-
--  Access to /tfly (Fly within your town boundaries)
--  10 Homes
--  /head (Get your own head once a day!)
--  Access to all first milestone job perks
--  1 Weekly Mid-Level Crate
--  ONE-TIME 3 High-Level Crates
--  ONE-TIME Unique Cosmetic!
-</details>
-
-> TOTAL - $50,000,000
-
-</details>
-
-<details>
-<summary style="font-size: 1.5em; font-weight: bold;">Tier 3</summary>
-
-<details>
-<summary>Regent - $20,000,000</summary>
-
--  Access to a 4th PlayerVault
--  Access to 3 Free Emotes
--  Access to more town upgrades!
-</details>
-
-<details>
-<summary>Viceroy - $25,000,000</summary>
-
--  Access to /top
--  Access to /back (on death)
--  RTP Cooldown Shortened (3 Seconds)
--  Mastery Path for 7 jobs!
-</details>
-
-<details>
-<summary>Archon - $30,000,000</summary>
-
--  /fly (Timed 1 Hour a day, timer cannot be paused)
--  /haste (Permanent Haste II)
--  12 Homes
-</details>
-
-<details>
-<summary>Chancellor - $35,000,000</summary>
-
--  Access to a 5th PlayerVault
--  /rtp biome (Three times a day)
--  Access to a Third PlayerWarp
-</details>
-
-<details>
-<summary>Grandee - $40,000,000</summary>
-
--  15 Homes
--  /feed (No Cooldown)
--  /heal (No Cooldown)
--  /repair all (2 Hour Cooldown)
--  Mastery Path for 8 jobs!
-</details>
-
-<details>
-<summary>Highlord - $45,000,000</summary>
-
--  Gradient /nick
--  Access to /stack (Stack all Items!)
--  Unlock Basic Cosmetics
--  Access to /resistance (Resistance II)
--  6th Player Vault
-</details>
-
-<details>
-<summary>Overlord - $55,000,000</summary>
-
--  /near (Radius 1000)
--  Unlock Basic Trails Pack /trail
--  20 Homes
--  No Fall Damage
-</details>
-
-<details>
-<summary>Sovereign - $70,000,000</summary>
-
--  /fly (1 Hour a day, Can pause timer)
--  Access to /fireres (Fire Resistance)
--  Access to /nfly (Fly within all towns in your nation)
--  Mastery Path all 9 jobs!
--  7th PlayerVault
--  Access to a Fourth Player Warp
--  Keep Inventory on Death
-</details>
-
-<details>
-<summary>Imperator - $80,000,000</summary>
-
--  25 Homes
--  Access to /fly (No Timer)
--  /repair all (No Cooldown)
--  Access to /regeneration (Regeneration II)
--  Access to a Fifth PlayerWarp
--  Access to all Trails & Cosmetics
--  Access to all second milestone job perks
--  Ability to join up to 3 towns
--  ONE-TIME Unique Cosmetic
--  ONE-TIME 10x High Level Crates
--  Pay for other peoples rankups!
--  Weekly High Level Crate
--  Prestiege…
-</details>
-
-> TOTAL - $400,000,000
-
-</details>
+| Tier |    Rank    |     Cost     |                         Commands                          | Other perks                                                                                                                                                                                                                                                                                                                                          |
+|:----:|:----------:|:------------:|:---------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  1   |  Newcomer  |      $0      | `/sethome` `/home` `/msg` `/reply` `/tpa` `/rtp` `/trash` | RTP CD - 3 Min                                                                                                                                                                                                                                                                                                                                       |
+|  1   |  Settler   |   $10,000    |                    `/craft` `/furnace`                    | +4 Free [Chunk Claims](#towns--upgrades) (4)                                                                                                                                                                                                                                                                                                         |
+|  1   |  Laborer   |   $15,000    |                 `/condense` `/blastfurn`                  | +1 [Mastery Path](#jobs--mastery) (1)                                                                                                                                                                                                                                                                                                                |
+|  1   | Apprentice |   $25,000    |              `/anvil` `/stonecutter` `/back`              | +2 Homes (2)                                                                                                                                                                                                                                                                                                                                         |
+|  1   |  Citizen   |   $50,000    |                          `/hat`                           | +1 Home (3) <br> +1 [Town](#towns--upgrades) (1) <br> +1 [Mastery Path](#jobs--mastery) (2)                                                                                                                                                                                                                                                          |
+|  1   |  Merchant  |   $75,000    |                 `/pw` `/chestshop` `/ah`                  | +2 Auction House Listings (2)                                                                                                                                                                                                                                                                                                                        |
+|  1   |  Artisan   |   $150,000   |           `/cartogrophy` `/loom` `/grindstone`            | Ability To Craft Concrete                                                                                                                                                                                                                                                                                                                            |
+|  1   | Prospector |   $200,000   |                          `/hdb`                           | +1 [Daily Quest](#daily-quests) (2) <br> RTP CD - 1 Min                                                                                                                                                                                                                                                                                              |
+|  1   |  Explorer  |   $350,000   |                `/ec` `/ptime` `/pweather`                 | +1 [Mastery Path](#jobs--mastery) (3) <br> +1 Weekly Small [Crate](#crates) (1) <br> 1 Large [Crate](#crates) <br> Unique [Cosmetic](#cosmetics)                                                                                                                                                                                                     |
+|  1   |   Total    |   $875,000   |                                                           |                                                                                                                                                                                                                                                                                                                                                      |
+|      |            |              |                                                           |                                                                                                                                                                                                                                                                                                                                                      |
+|  2   |  Captain   |   $500,000   |                  `/heal` `/near` `/show`                  | +1 Auction House Listing (3) <br> Heal CD - 2 Min                                                                                                                                                                                                                                                                                                    |
+|  2   | Magistrate |  $1,000,000  |                 `/speed` `/nick` `/pv 1`                  | +1 [Mastery Path](#jobs--mastery) (4) <br> Unique [Cosmetic](#cosmetics)                                                                                                                                                                                                                                                                             |
+|  2   |   Baron    |  $1,500,000  |                         `/pw 1:2`                         | +2 Homes (5) <br> +1 Daily Reward (2) <br> +1 [Nation](#nations) (1)                                                                                                                                                                                                                                                                                 |
+|  2   |   Count    |  $2,500,000  |             `/repair` `/rename` `/jumpboost`              | Repair CD - 2 Hour                                                                                                                                                                                                                                                                                                                                   |
+|  2   |  Viscount  |  $4,000,000  |                          `/pv 2`                          | +1 [Daily Quest](#daily-quests) (3) <br> +1 [Mastery Path](#jobs--mastery) (5)                                                                                                                                                                                                                                                                       |
+|  2   |    Earl    |  $6,500,000  |                                                           | +2 Homes (7) <br> Colored `/nick` <br> +1 Group Vault (1)                                                                                                                                                                                                                                                                                            |
+|  2   |  Marquis   | $10,000,000  |                  `/lore` `/feed` `/pv 3`                  | Feed CD - 2 Min <br> Keep Exp on death                                                                                                                                                                                                                                                                                                               |
+|  2   |    Duke    | $11,500,000  |                `/glow` `/strength` `/back`                | +1 [Town](#towns--upgrades) (2) <br> Back CD - 5 Min <br> +1 [Mastery Path](#jobs--mastery) (6)                                                                                                                                                                                                                                                      |
+|  2   |  Governor  | $12,500,000  |                      `/tfly` `/head`                      | +3 Homes (10) <br> Head CD - 1 Day <br> All Level 10 [Job](#jobs--mastery) Perks <br> +1 Weekly Medium [Crate](#crates) (1) <br> 3 Large [Crates](#crates) <br> Unique [Cosmetic](#cosmetics)                                                                                                                                                        |
+|  2   |   Total    | $50,000,000  |                                                           |                                                                                                                                                                                                                                                                                                                                                      |
+|      |            |              |                                                           |                                                                                                                                                                                                                                                                                                                                                      |
+|  3   |   Regent   | $20,000,000  |                          `/pv 4`                          | +3 Emotes (3) <br> Access to more [Town Upgrades](#towns--upgrades)                                                                                                                                                                                                                                                                                  |
+|  3   |  Viceroy   | $25,000,000  |                          `/top`                           | No Back CD <br> RTP CD - 3 Sec <br> +1 [Mastery Path](#jobs--mastery) (7)                                                                                                                                                                                                                                                                            |
+|  3   |   Archon   | $30,000,000  |                      `/fly` `/haste`                      | +2 Homes (12) <br> Fly Time - 1 Hour                                                                                                                                                                                                                                                                                                                 |
+|  3   | Chancellor | $35,000,000  |                      `/pw 3` `/pv 5`                      | 3 Biome RTP/Day                                                                                                                                                                                                                                                                                                                                      |
+|  3   |  Grandee   | $40,000,000  |                       `/repair all`                       | +3 Homes (15) <br> No Feed CD <br> No Heal CD <br> +1 [Mastery Path](#jobs--mastery) (8)                                                                                                                                                                                                                                                             |
+|  3   |  Highlord  | $45,000,000  |              `/stack` `/resistance` `/pv 6`               | Basic Cosmetics <br> Gradient `/nick`                                                                                                                                                                                                                                                                                                                |
+|  3   |  Overlord  | $55,000,000  |                         `/trail`                          | +5 Homes (20) <br> No Fall Damage                                                                                                                                                                                                                                                                                                                    |
+|  3   | Sovereign  | $70,000,000  |            `/fireres` `/nfly` `/pv 7` `/pw 4`             | Keep Inventory <br> +1 [Mastery Path](#jobs--mastery) (9)                                                                                                                                                                                                                                                                                            |
+|  3   | Imperator  | $80,000,000  |                  `/pw 5` `/regeneration`                   | +5 Homes (25) <br> No Fly Timer <br> No Repair Cooldown <br> [Access To All Trails](#cosmetics) <br> All Level 25 [Job](#jobs--mastery) Perks <br> +1 [Town](#towns--upgrades) (3) <br> Unique [Cosmetic](#cosmetics) <br> +1 Weekly Large [Crate](#crates) <br> 10x Large [Crates](#crates) <br> Pay for others rankups <br> [Prestige](#prestige) |
+|  3   |   Total    | $400,000,000 |                                                           |                                                                                                                                                                                                                                                                                                                                                      |
 
 ## Jobs & Mastery
-<details>
-<summary style="font-size: 1.2em; font-weight: bold;">Miner -> Helldiver (Nether Miner)</summary>
+> I feel making some of these commands into items might be more immersive
+> 
+> -Milo
+### Miner -> Helldiver (Nether Miner)
+|   Rank    | Level | Perks                                                                 |
+|:---------:|:-----:|:----------------------------------------------------------------------|
+|   Miner   |  10   | `/nightvision`                                                        |
+|   Miner   |  25   | Condense All Rock Types, Sand, Gravel, and Dirt                       |
+|   Miner   |  35   | `/haste`                                                              |
+|   Miner   |  50   | Higher chance for [shards and catalysts](#geodes) to drop from mining |
+| Helldiver |  60   | Ability to craft and access "Large Bundles" (27 stack bundles)        |
+| Helldiver |  75   | `/fireres`                                                            |
+| Helldiver |  85   | Repair CD - 30 Min                                                    |
+| Helldiver |  100  | Ability to fly under y=40 <br> Unique Cosmetic                        |
 
-- Miner
-    - Level 10: Access to /nightvision
-    - Level 25: Ability to condense cobblestone, deepslate, dirt, sand, gravel, diorite, andesite, and granite
-    - Level 35: Access to /haste (Haste II)
-    - Level 50: Higher chance for shards and catalysts to drop from mining
-- Helldiver
-    - Level 60: Ability to craft and access “bigger” bundles (single chests full of storage)
-    - Level 75: Access to /fireres (Fire Resistance)
-    - Level 85: Access to /repair (30 Minute Cooldown)
-    - Level 100: Max Payout, ability to fly while under y=60
-</details>
+### Smelter -> Blacksmith (Tools/Armor Crafter)
+|    Rank    | Level | Perks                                                                         |
+|:----------:|:-----:|:------------------------------------------------------------------------------|
+|  Smelter   |  10   | Ability to craft Coal Blocks from Charcoal                                    |
+|  Smelter   |  25   | Ability to create and access 1 Chunk Loader                                   |
+|  Smelter   |  35   | Ability to smelt vanilla tools into their materials regardless of durability  |
+|  Smelter   |  50   | Ability to craft "Mega-Coal" from 8 Coal in a crafting table. Smelts 64 items |
+| Blacksmith |  60   | Ability to combine Iron and Coal into Steel                                   |
+| Blacksmith |  75   | Ability to smelt Obsidian, Slimeballs, and Rotten Flesh                       |
+| Blacksmith |  85   | 10% chance to get double output from smelting                                 |
+| Blacksmith |  100  | Ability to smelt and create Titanium and Uranium <br> Unique Cosmetic         |
 
-<details>
-<summary style="font-size: 1.2em; font-weight: bold;">Smelter -> Blacksmith (Tools/Armor Crafter)</summary>
+### Fisherman → Chef (Food Maker)
+|    Rank    | Level | Perks                                                        |
+|:----------:|:-----:|:-------------------------------------------------------------|
+| Fisherman  |  10   | 5% chance to catch double fish                               |
+| Fisherman  |  25   | `/waterbreathing`                                            |
+| Fisherman  |  35   | `/dolphinsgrace`                                             |
+| Fisherman  |  50   | Fishing rods no longer take durability                       |
+|    Chef    |  60   | `/disguise` as aquatic creatures                             |
+|    Chef    |  75   | `/conduit`                                                   |
+|    Chef    |  85   | 25% chance to catch double fish                              |
+|    Chef    |  100  | Higher chance to catch Ultra-Rare Items <br> Unique Cosmetic |
 
-- Smelter
-    - Level 10: Ability to craft Coal Blocks from Charcoal & Mini Coal
-    - Level 25: Ability to create and access 1 Chunk Loader
-    - Level 35: Ability to smelt tools into their original amount of items to craft regardless of durability.
-    - Level 50: Ability to craft “mega-coal” which calls for 8 pieces of coal in a crafting table, burns exactly 64 items
-- Blacksmith
-    - Level 60: Ability to combine Iron & Coal to make Steel
-    - Level 75: Ability to Smelt Obsidian, Slimeballs and Rotten Flesh
-    - Level 85: 10% chance of double smelts
-    - Level 100: Smelt & Create Titanium and Uranium
-</details>
+### Arcane (Potions) → Wizard (Enchanting)
+|  Rank  | Level | Perks                                                 |
+|:------:|:-----:|:------------------------------------------------------|
+| Arcane |  10   | Ability to brew Potions of Saturation                 |
+| Arcane |  25   | Ability to bottle their experience                    |
+| Arcane |  35   | Ability to Brew Level I & II Resistance Potions       |
+| Arcane |  50   | Ability to Brew Level I & II Haste Potions            |
+| Wizard |  60   | Ability to use redstone blocks for 15:00 Potions      |
+| Wizard |  75   | Ability to brew +1 level Potions                      |
+| Wizard |  85   | Ability to brew Flight Potions of 5 Minutes           |
+| Wizard |  100  | Ability to brew +2 Level Potions <br> Unique Cosmetic |
 
-<details>
-<summary style="font-size: 1.2em; font-weight: bold;">Fisherman → Chef (Food Maker)</summary>
+### Lumberjack → Forester (Mushrooms & Bonemealing)
+|    Rank    | Level | Perks                                   |
+|:----------:|:-----:|:----------------------------------------|
+| Lumberjack |  10   | Ability to blow leaves                  |
+| Lumberjack |  25   | Access to Crossbreed Saplings!          |
+| Lumberjack |  35   | Ability to climb logs like ladders      |
+| Lumberjack |  50   | Bigger Treefeller                       |
+|  Forester  |  60   | `/haste` (Permanent Haste II)           |
+|  Forester  |  75   | `/top`                                  |
+|  Forester  |  85   | Ability to craft and use Auto-Smelt axe |
+|  Forester  |  100  | No Fall Damage <br> Unique Cosmetic     |
 
-- Fisherman
-    - Level 10: 5% chance to catch double fish
-    - Level 25: Access to /waterbreathing
-    - Level 35: Access to /dolphinsgrace
-    - Level 50: Fishing rods no longer take durability
-- Chef
-    - Level 60: Ability to disguise as aquatic creatures
-    - Level 75: Access to /conduit
-    - Level 85: 25% chance to catch double fish
-    - Level 100: Higher chance to catch Ultra-Rare Items/Cosmetic
-</details>
+### Farmer → Forager (Flowers & Wild Crops/Crafting Dyes)
+|  Rank   | Level | Perks                                                   |
+|:-------:|:-----:|:--------------------------------------------------------|
+| Farmer  |  10   | Ability to auto-replant crops                           |
+| Farmer  |  25   | 10% chance to Double Crops                              |
+| Farmer  |  35   | Ability to craft stronger fertilizer (Super Bonemeal)   |
+| Farmer  |  50   | Ability to auto-replant crops without seeds             |
+| Forager |  60   | Access to “Crop-Bags” (Store infinite amounts of crops) |
+| Forager |  75   | Extra Crafting Recipes for Crops                        |
+| Forager |  85   | `/speed` (Speed II)                                     |
+| Forager |  100  | No longer go hungry <br> Unique Cosmetic                |
 
-<details>
-<summary style="font-size: 1.2em; font-weight: bold;">Arcane (Potions) → Wizard (Enchanting)</summary>
+### Rancher → Zookeeper (Non-Basic Mobs)
+|   Rank    | Level | Perks                                                   |
+|:---------:|:-----:|:--------------------------------------------------------|
+|  Rancher  |  10   | Access to Extra Recipes from Mob Drops                  |
+|  Rancher  |  25   | Ability to craft cages to move mobs easier              |
+|  Rancher  |  35   | Ability to craft “Feed” for different animals           |
+|  Rancher  |  50   | `/capture` (turn mobs into item forms with stored data) |
+| Zookeeper |  60   | Breed animals instantly                                 |
+| Zookeeper |  75   | Craft Passive Mob Spawners (w/ mob items)               |
+| Zookeeper |  85   | Access to new passive mob drops & crafting recipes      |
+| Zookeeper |  100  | Access to Custom Pets <br> Unique Cosmetic              |
 
-- Arcane
-    - Level 10: Ability to brew Potions of Saturation
-    - Level 25: Ability to bottle their experience
-    - Level 35: Ability to Brew Level I & II Resistance Potions
-    - Level 50: Ability to Brew Level I & II Haste Potions
-- Wizard
-    - Level 60: Ability to use redstone blocks for 15:00 Potions
-    - Level 75: Ability to brew Level III Potions
-    - Level 85: Ability to brew Flight Potions of 5 Minutes
-    - Level 100 Ability to brew Level IV Potions
-</details>
+### Builder (Timed) → Crafter (Crafting Items)
+|  Rank  | Level | Perks                           |
+|:------:|:-----:|:--------------------------------|
+| Arcane |  10   | Ability to create elevators     |
+| Arcane |  25   | `/levitate`                     |
+| Arcane |  35   | `/slowfall`                     |
+| Arcane |  50   | `/top`                          |
+| Wizard |  60   | Ability to create teleport pads |
+| Wizard |  75   | `/tfly`                         |
+| Wizard |  85   | Ability to craft furniture      |
+| Wizard |  100  | `/nfly` <br> Unique Cosmetic    |
 
-<details>
-<summary style="font-size: 1.2em; font-weight: bold;">Lumberjack → Forester (Mushrooms & Bonemealing)</summary>
+### Hunter → Hellhunter (Nether Mobs)
+|    Rank    | Level | Perks                                                     |
+|:----------:|:-----:|:----------------------------------------------------------|
+|   Hunter   |  10   | Ability to craft custom arrows                            |
+|   Hunter   |  25   | Extra mob drops and crafting recipes!                     |
+|   Hunter   |  35   | `/cleareffect` (Clear all negative potion effects)        |
+|   Hunter   |  50   | `/deagro` (Hostile mobs will no longer try to attack you) |
+| Hellhunter |  60   | `/strength` (Strength II)                                 |
+| Hellhunter |  75   | `/resistance` (Resistance II)                             |
+| Hellhunter |  85   | Ability to capture mobs                                   |
+| Hellhunter |  100  | Ability to craft mob spawners <br> Unique Cosmetic        |
 
-- Lumberjack
-    - Level 10: Ability to blow leaves
-    - Level 25: Access to Custom Trees!
-    - Level 35: Ability to climb logs like ladders
-    - Level 50: Bigger Treefeller
-- Forester
-    - Level 60: Access to /haste (Permanent Haste II)
-    - Level 75: Access to /top
-    - Level 85: Ability to Auto-Smelt logs with an Auto-Smelt Axe
-    - Level 100: No Fall Damage/Cosmetic
-</details>
+## Quests
+> To be finished
+### Story Quests
 
-<details>
-<summary style="font-size: 1.2em; font-weight: bold;">Farmer → Forager (Flowers & Wild Crops/Crafting Dyes)</summary>
+---
 
-- Farmer
-    - Level 10: Ability to auto-replant crops with seeds in your inventory
-    - Level 25: 10% chance to Double Crops
-    - Level 35: Ability to craft stronger fertilizer (Super Bonemeal)
-    - Level 50: Ability to auto-replant crops without seeds
-- Forager
-    - Level 60: Access to “Crop-Bags” (Store infinite amounts of crops)
-    - Level 75: Extra Crafting Recipes for Crops
-    - Level 85: Access /speed (Speed II)
-    - Level 100: No longer go hungry/Cosmetic
-</details>
+### Daily Quests
 
-<details>
-<summary style="font-size: 1.2em; font-weight: bold;">Rancher → Zookeeper (Non-Basic Mobs)</summary>
-
-- Rancher
-    - Level 10: Access to Extra Recipes from Mob Drops
-    - Level 25: Ability to craft leads and nametags
-    - Level 35: Ability to craft “Feed” for different animals
-    - Level 50: Access to /capture (turn mobs into spawn eggs)
-- Zookeeper
-    - Level 60: Breed animals instantly
-    - Level 75: Craft Passive Mob Spawners (w/ mob eggs)
-    - Level 85: Access to new passive mob drops & crafting recipes
-    - Level 100: Access to Custom Pets & Cosmetic
-</details>
-
-<details>
-<summary style="font-size: 1.2em; font-weight: bold;">Builder (Timed) → Crafter (Crafting Items)</summary>
-
-- Builder
-    - Level 10: Ability to create elevators
-    - Level 25: Access to /levitate
-    - Level 35: Access to /slowfall
-    - Level 50: Access to /top
-- Crafter
-    - Level 60: Ability to create teleport pads
-    - Level 75: Access to /tfly
-    - Level 85: Ability to craft furniture
-    - Level 100: Access to /nfly and Cosmetic
-</details>
-
-<details>
-<summary style="font-size: 1.2em; font-weight: bold;">Hunter → Hellhunter (Nether Mobs)</summary>
-
-- Hunter
-    - Level 10: Ability to craft Crossbows
-    - Level 25: Extra mob drops and crafting recipes!
-    - Level 35: Access to /cleareffect (Clear all negative potion effects)
-    - Level 50: Access to /deagro (Hostile mobs will no longer try to attack you)
-- Hellhunter
-    - Level 60: Access to /strength (Strength II)
-    - Level 75: Access to /resistance (Resistance II)
-    - Level 85: Ability to capture mobs
-    - Level 100: Ability to craft mob spawners
-</details>
-
+---
 ## NPCs
 
+### Behavior
 
-NPCs are by default free roaming NPCs, they spawn in like regular mobs at a lower rate than regular mobs and more often will spawn closer to the outskirts of towns. Upon meeting an NPC, the NPC can choose to run away, stay put, or in certain cases if they are visible armed, attack you. All NPCs can be killed by the player however if the NPC is an innocent unarmed NPC then it will lower the players status/reputation with all
-future NPCs they meet out in the wild. Reputation has a natural reset period so if players kill them early on or accidentally, it’s not a permanent penalty.
+NPCs spawn like mobs but at a lower rate, appearing more often near town outskirts. On encounter, they may:
+- **Flee** from the player
+- **Stay put**
+- **Attack** (only if visibly armed)
 
-If an NPC chooses to peacefully interact with the player, the player will have a few options. They can have a generic dialogue, they can invite them to join their town, or if the player does not have a town, they can ask them to move in with them as a personal assistant/helper.
+Players can kill any NPC, but killing an **innocent, unarmed NPC** lowers their reputation with all future wild NPCs. This penalty resets naturally over time, so early or accidental kills aren't permanent.
 
-If an NPC chooses to be a personal assistant or join the town of the player, then they will despawn simulating them “going to your town/home”, and will not respawn until a player places down the “NPC Workbench” and respawns the NPC.
+---
 
-From there, the player may also access the NPCs inventory, give the NPC money, and direct them to do other tasks.
+### Peaceful Interactions
 
-### Tasks:
-- If a player has a town and no other NPCs assigned as a builder, they may request the NPC to be a builder. NPCs will have access to 10 preloaded house builds, as players make their own builds, they may also be allowed to copy their own builds, then upload them as schematics to their personal schematic catalogue for their NPCs to build (might be level dependent).
-- As NPCs build more buildings, they also level up, this speeds up the process of the time it takes them to build. The provided buildings offered by the server will have predetermined times to build but will not take less than 2 hours and not more than 5 hours.
-- Custom builds will be subject to a base rate of 2 hours then a rate of 10 seconds per block placed at level 1.
+If an NPC engages peacefully, the player has three options:
+- **Generic dialogue**
+- **Invite to town** — recruit the NPC to join the player's existing town
+- **Personal assistant** — available only if the player has no town
 
-### NPC Jobs/Leveling:
-- NPCs can be paid to work at a base rate (to be determined), they are able to do the same jobs that regular players can do but can only be assigned one. If a player wants to change the profession than the NPC will lose all the levels and have to reset back to level 1 when switched.
-- Levels increase the NPCs roll change to get good items for every minute they’re out on the job, and also increase the amount of time/duration they’re out before they get tired and return home
-- As more NPCs join the town, the more expensive the base pay is, for every level the npc is, it also adds a variable rate of the % equal to the level on top of the base.
+---
+### Recruitment & Stationing
 
-### NPC Care/General Use:
-- NPCs require food and shelter in order to remain loyal to you and your town, if they are not provided such then the NPCs happiness will slowly decay overtime until they abandon your town. Every minute an NPC is out working, they need to have 1 hunger bars worth of food in order to sustain themselves.
-- Certain foods may provide certain benefits to NPCs such as higher work ethic or higher luck increasing their roll chances to find good drops while out working.
+NPCs who join a town or become a personal assistant will **despawn immediately**, simulating travel to the player's home or town. They won't return until the player places an **NPC Workbench** to resummon them.
+
+Once stationed, players can:
+- Access the **NPC's inventory**
+- Give the NPC **money**
+- Assign them **tasks**
+
+---
+
+### Jobs & Leveling
+
+- NPCs can be **paid to work** at a base rate *(to be determined)*
+- They can perform the same jobs as players but are **limited to one job at a time**
+- **Switching professions resets the NPC back to level 1**
+- Higher levels provide:
+  - Increased **roll chance** for better loot drops per minute worked
+  - Increased **stamina duration** before the NPC gets tired and returns home
+- Pay scales with town size and NPC level:
+  - More NPCs in town = **higher base pay**
+  - Each NPC level adds a **variable rate equal to their level %** on top of base pay
+
+---
+
+### Care & General Use
+
+- NPCs require **food and shelter** to remain loyal — neglecting these needs causes happiness to decay until the NPC **abandons your town**
+- Every minute an NPC works, they consume **1 hunger bar's worth of food**
+- Certain foods provide **buffs** to NPCs, such as:
+  - Higher **work ethic**
+  - Higher **luck**, increasing roll chances for good drops while working
+
+---
+
+## Tasks
+
+### Building
+- If a player has a town with no assigned builder, they may designate the NPC as a **builder**
+- NPCs have access to **10 preloaded house builds** by default
+- Players may copy their own builds and upload them as **schematics** to a personal schematic catalogue for NPCs to use *(may be level-dependent)*
+- As NPCs complete more builds, they **level up**, reducing future build times
+- Server-provided builds have **predetermined build times between 2–5 hours**
+- Custom builds follow this formula:
+  - **Base rate:** 2 hours
+  - **+10 seconds per block placed** (at level 1)
+
+---
 
 ## Towns & Nations
 
-### Towns & Town Upgrades
+### Towns & Upgrades
 
-Towns will be used to organize groups of players with a common goal on the server, whether it be building, grinding jobs, or stacking up NPC’s for farming/production, they encourage collaboration.
+Towns organize groups of players around shared goals — building, job grinding, or NPC farming/production — and encourage collaboration.
 
-> Claims Upgrade in increments of 100 increasing in cost each upgrade maxing at 5000, 49 total upgrades
+| Upgrade | Increment | Starting Cost | Max |
+|---|---|---|---|
+| **Claims** | +100 per upgrade, increasing in cost each time | — | 5,000 (49 upgrades) |
+| **Outposts** | 1 at a time, each costing twice the last | $25,000 | 10 |
+| **Town Vaults** | 1 at a time, each costing twice the last | $5,000 | 10 |
 
-> Outposts Upgrade 1 at a time, each one costing twice as much as the last, starting at $25,000 - Max 10
-
-> Town Vaults Upgrade 1 at a time each one costing twice the amount as the previous one starting a $5,000 - Max 10
+---
 
 ### Nations
 
-At the current moment, nations will be organized solely for towns to ally with one another and interact in each others towns. Governance will be added down the line but I have no immediate plans to do that for Open-Beta.
+Nations currently serve to **ally towns** and allow interaction within each other's territory. Governance features are planned but **not scheduled for Open Beta**.
 
-## Custom/Tiered/Powerful Tools
+---
 
-Custom tools and armor can be dropped by mobs with a very rare chance of ultra powerful ones to be dropped by them. Other jobs however can have a much higher chance to receive the shards/catalysts required to craft items called geodes which when right clicking with them in your hand will give you a random piece of incredibly rare equipment (specific name for incredibly rare to be determined).
-Some incredibly rare equipment may have a little star next to their name to signify that they are “Perfect”. Every time you open one of these incredibly rare geodes, there’s only a 2% chance that they will be perfect. If they are perfect, then all of the base enchants will be upped by one level from the usual enchants of said tool except for unbreaking which will not be on the tool as the tool will be “Unbreakable”.
+## Custom, Tiered & Powerful Tools
+
+### Obtaining Powerful Gear
+
+Mobs have a **very rare chance** to drop custom tools and armor, including ultra-powerful variants.
+
+---
+
+## Geodes
+
+Certain jobs have a **higher chance** to yield **shards/catalysts** used to craft Geodes. **Right-clicking a Geode** rewards a random piece of incredibly rare equipment *(specific rarity name TBD)*.
+
+### Perfect Items
+
+Some incredibly rare equipment may display a **★ star** to indicate it is **"Perfect"**. Every Geode opened has a **2% chance** of yielding a Perfect item.
+
+- Perfect items have **all base enchantments upgraded by one level** compared to standard variants
+- Perfect items do **not** have Unbreaking — instead, they are permanently **Unbreakable**
 
 # Donator Store
 ## Ranks
-- Starling - $10
-    - 5 Homes
-    - 9 Chunks Personal Land (3x3)
-    - 1 Mastery Path Unlocked
-    - 1 Player Vault
-    - /ec (enderchest)
-    - All Virtual Workstations
-    - /hat
-    - /glow (Color of Rank)
-    - /nick Gradient
-    - Access to Donator Chat
-- Comet - $20
-    - 10 Homes
-    - 16 Chunks Personal Land (4x4)
-    - 2 Mastery Paths Unlocked
-    - 2 PlayerVaults
-    - 1 PlayerWarp
-    - Immediate Access to /ah
-        - 5 Listings
-    - Immediate Access to Chestshops
-    - Immediate Access to /hdb
-    - Immediate Access to /ptime and /pweather
-- Nebula - $35
-    - 15 Homes
-    - 25 Chunks Personal Land (5x5)
-    - 3 Mastery Paths Unlocked
-    - 3 PlayerVaults
-    - 2 PlayerWarp
-    - 8 Ah Listings
-    - Immediate Access to /feed (No Cooldown)
-    - Immediate Access to /near (Rad. 200)
-    - Access to /nv (Nightvision)
-    - Access to /back (on death)
-- Aurora - $50
-    - 20 Homes
-    - 49 Chunks Personal Land (7x7)
-    - 4 Mastery Paths Unlocked
-    - 4 PlayerVaults
-    - 3 PlayersWarps
-    - 12 Ah Listings
-    - Keep Experience on Death
-    - /rtp biome (Once a day)
-    - Access to /top
-- Celestium - $80
-    - 25 Homes
-    - 100 Chunks Personal Land (10x10)
-    - 5 Mastery Paths Unlocked
-    - 5 PlayerVaults
-    - 4 PlayerWarps
-    - 15 Ah Listings
-    - Keep Inventory on Death
-    - Access to /Speed & /Jumpboost
-    - Access to /repair (30 Minute Cooldown)
-    - Immediate Access to /tfly (Fly in your town)
-    - Access to Special Celestium Chat
+|   Rank    | Price | Perks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|:---------:|:-----:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Starling  |  $10  | +5 Homes <br> 3x3 Area of Personal Land <br> +1 Mastery Path <br> +1 Player Vault <br> All virtual stations <br> `/hat` <br> `/glow` (color of rank) <br> Gradient `/nick` <br> Access to Donator Chat                                                                                                                                                                                                                                                                                                                                                        |
+|   Comet   |  $20  | +10 Homes <br> 4x4 Area of Personal Land <br> +2 Mastery Paths <br> +2 Player Vaults <br> +1 Player Warp <br> AH access <br> +5 AH listings <br> Access to ChestShops <br>  `/hdb` <br>  `/ptime` `/pweather` <br> All virtual stations <br> `/hat` <br> `/glow` (color of rank) <br> Gradient `/nick` <br> Access to Donator Chat                                                                                                                                                                                                                            |
+|  Nebula   |  $35  | +15 Homes <br> 5x5 Area of Personal Land <br> +3 Mastery Paths <br> +3 Player Vaults <br> +2 Player Warp <br> AH access <br> +8 AH listings <br>  `/feed` <br>  `/near` <br>  `/nv` <br>  `/back` <br> Access to ChestShops <br>  `/hdb` <br>  `/ptime` `/pweather` <br> All virtual stations <br> `/hat` <br> `/glow` (color of rank) <br> Gradient `/nick` <br> Access to Donator Chat                                                                                                                                                                      |
+|  Aurora   |  $50  | +20 Homes <br> 7x7 Area of Personal Land <br> +4 Mastery Paths <br> +4 Player Vaults <br> +3 Player Warp <br> AH access <br> +12 AH listings <br> Keep Exp on death <br> +1 `/rtp biome`/day <br>  `/top` <br>  `/feed` <br>  `/near` <br>  `/nv` <br>  `/back` <br> Access to ChestShops <br>  `/hdb` <br>  `/ptime` `/pweather` <br> All virtual stations <br> `/hat` <br> `/glow` (color of rank) <br> Gradient `/nick` <br> Access to Donator Chat                                                                                                        |
+| Celestium |  $80  | +25 Homes <br> 10x10 Area of Personal Land <br> +5 Mastery Paths <br> +5 Player Vaults <br> +4 Player Warp <br> AH access <br> +15 AH listings <br> Keep Inventory <br> `/speed` <br> `/jumpboost` <br> `/repair` (30Min cooldown) <br> `/tfly` <br> +1 `/rtp biome`/day <br> `/top` <br> `/feed` <br> `/near` <br>  `/nv` <br>  `/back` <br> Access to ChestShops <br>  `/hdb` <br>  `/ptime` `/pweather` <br> All virtual stations <br> `/hat` <br> `/glow` (color of rank) <br> Gradient `/nick` <br> Access to Donator Chat <br> Access to Celestium Chat |
 
 ## Subscriptions
-- Tier I - $5
-    - Tier I Cosmetics
-    - Special Discord Role & Chat
-    - /nick Gradient
-    - /hat
-    - 1x High-End Weekly Crate
-    - 1x Weekly 5% Global Universal Jobs XP Booster (4h a piece, cannot be paused, cannot be sold)
-- Tier II - $15
-    - Tier II Cosmetics
-    - Special Discord Role & Chat
-    - 3x High-End Weekly Crates
-    - 1x Weekly 10% Global Universal Jobs XP Booster (4h a piece, cannot be paused, cannot be sold)
-- Tier III - $25
-    - Tier III Cosmetics
-    - Special Discord Role & Chat
-    - 5x High-End Weekly Crates
-    - 1x Weekly 15% Global Universal Jobs XP Booster (4h a piece, cannot be paused, cannot be sold)
+| Tier | Price/Month | Perks                                                                                                                                                                                                                                                        |
+|:----:|:-----------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  I   |     $5      | Tiered Cosmetics <br> Discord Role & Chat <br> Gradient `/nick` <br> `/hat` <br> +1 Large Weekly [Crate](#crates) <br> 1x Weekly 5% Global Universal Jobs XP Booster (4h a piece, cannot be paused, cannot be sold) <br> Access to Sub Feature Votes         |
+| II   |     $15     | Tiered Cosmetics <br> Discord Role & Chat <br> Gradient `/nick` <br> `/hat` <br> +3 Large Weekly [Crates](#crates) <br> 1x Weekly 10% Global Universal Jobs XP Booster (4h a piece, cannot be paused, cannot be sold) <br> Access to Sub Feature Suggestions |
+| III  |     $25     | Tiered Cosmetics <br> Discord Role & Chat <br> Gradient `/nick` <br> `/hat` <br> +5 Large Weekly [Crates](#crates) <br> 1x Weekly 15% Global Universal Jobs XP Booster (4h a piece, cannot be paused, cannot be sold) <br> Access to Sub Feature Suggestions |
 
 ## Crates
-- Low-Level Standard
-    - 1x $1
-    - 5x $4
-    - 10x $7.50
-    - Server 1x $10.00
-    - Server 5x $40.00
-- Mid-Level Standard
-    - 1x $2
-    - 5x $8
-    - 10x $15
-    - Server 1x $20.00
-    - Server 5x $100.00
-- High-Level Standard
-    - 1x $3
-    - 5x $12
-    - 10x $20
-    - Server 1x $30.00
-    - Server 5x $150.00
-- Monthly Cosmetic Crates (20 Cosmetics per Crate)
-    - 1x $5
-    - 5x $20
-    - 10x $35
+|       Tier       | Amount | Price |
+|:----------------:|:------:|:-----:|
+|      Small       |   1    |  $1   |
+|      Small       |   5    |  $4   |
+|      Small       |   10   | $7.50 |
+|      Small       | 1Serv  |  $10  |
+|      Small       | 5Serv  |  $40  |
+|                  |        |       |
+|      Medium      |   1    |  $2   |
+|      Medium      |   5    |  $8   |
+|      Medium      |   10   |  $15  |
+|      Medium      | 1Serv  |  $20  |
+|      Medium      | 5Serv  |  $80  |
+|                  |        |       |
+|      Large       |   1    |  $3   |
+|      Large       |   5    |  $12  |
+|      Large       |   10   |  $20  |
+|      Large       | 1Serv  |  $30  |
+|      Large       | 5Serv  | $120  |
+|                  |        |       |
+| Monthly Cosmetic |   1    |  $5   |
+| Monthly Cosmetic |   5    |  $20  |
+| Monthly Cosmetic |   10   |  $35  |
 
 ## Boosters
 - 10% Global/Universal Job EXP Booster (1h): $10
@@ -575,149 +320,46 @@ Some incredibly rare equipment may have a little star next to their name to sign
 
 ## Tools (Names and enchants TBD)
 - Individual - $2.00
-- Full Bundle (11 pieces) - $20.00
+- Full Bundle (Full Armor, Sword, Pick, Axe, Shovel, Hoe, 2 Wildcards) - $20.00
 
 ## Cosmetics
 - TBD
 
 # Structure
-## Backend
-- (Prod Ready!) NoorCore **X$**
-    - ✅ Anti-cheat/Logging
-    - ✅ Global config
-    - ✅ Cross-plugin API
-    - ✅ Feature flags
-- NoorMisc **X$**
-    - RTP logic
-    - Simple commands
-    - Surface level stuff
-- NoorData **X$**
-    - SQL Connections
-    - Async data loading
-    - Basically just a way to make data saving/handling easy
-- NoorUtils **X$**
-    - ✅ Common utilities
-    - Text formatting
-    - Validation logic
-    - Logging
-    - Metrics
-    - Test commands
-    - Simulation tools
-- NoorMenus **X$**
-    - ✅ GUI Handling
-    - Unified menu style
-    - Nesting logic
-## Economy
-- NoorEco **Web$**
-    - Currency
-    - Transactions
-    - Tax hooks
-    - Inflation controls
-    - Economy events
-- (Prod Ready!)NoorJobs **X$**
-    - ✅ Base jobs
-    - ✅ XP handling
-    - ✅ Payouts
-    - ✅ Job switching
-    - ✅ Per-job event listeners
-- NoorMastery **$**
-    - Extension of jobs
-    - Mastery paths
-    - Mastery upgrades
-    - Level 50+ perks
-    - Cross-job unlocks
-## Ranks n Crates
-- NoorRanks **$**
-    - Rank definitions
-    - Costs
-    - Tier tracking
-    - Perks registration
-    - Prestige hooks
-    - Store Ranks
-- NoorCrates **$**
-    - Low/Mid/High crates
-    - Roll tables
-    - Broadcast logic
-    - Buy-for-all logic
-    - Visual crate animations
-## Claims
-- NoorTowns **X$**
-    - Chunk claiming
-    - Claim perms
-    - Personal/town claims
-    - Visual borders
-    - Town creation
-    - Roles
-    - Upgrades
-    - Vaults
-    - Assignment tracking
-- NoorNations **$**
-    - Extension of towns
-    - Nation creation
-    - Alliances
-    - Chat
-    - Shared perms
-- NoorWarps **X$**
-    - Player warps
-    - Town warps
-    - Nation warps
-    - Warp limits by rank
-## NPCs
-- NoorNPCs **$**
-    - ✅ NPC spawning
-    - Reputation system
-    - Dialogue system
-    - ✅ Inventory & Money
-    - Loyalty/Happiness decay
-    - ✅ Job assignment
-    - ✅ Execution simulation
-    - ✅ Roll chances
-    - Fatigue system
-    - ✅ Job resets
-## Mobs
-- NoorEntities **X$**
-    - ✅ Custom mob handling
-    - ✅ Drop chances
-    - Spawn circumstances
-    - AI handling
-## Items
-- (Prod Ready!) NoorItems **X$**
-    - ✅ Custom Item handling
-    - ✅ Metadata handling
-    - ✅ Custom tools/armor
-    - ✅ Enchant rules
-    - ✅ Durability overrides
-    - ✅ Special behaviors
-    - Kits logic
-- NoorGeodes **$**
-    - Shards/catalysts
-    - Roll logic
-    - Perfect chance handling
-    - Visual opening effects
-- NoorCosmetics **$**
-    - Cosmetic Items logic
-    - Cosmetic Slot Handling
-## Misc.
-- NoorQuests **$**
-    - Daily/Weekly quests
-    - Rank-based quest pools
-    - NPC quest hooks
-- NoorEvents **X**
-    - Server-wide events
-    - We’ll get into this later as well
-- NoorDungeons **$**
-    - Dungeon generation
-    - Dungeon Themes
-    - Completion Rewards
-    - Bosses
-## Roles
-- NoorAdmin **X$**
-    - Moderation tools
-    - Player inspections
-    - Rollback hooks
-    - Staff-only commands
-- NoorSupporter **$**
-    - Vote logic
-    - Subscription perks
-    - XP Booster distribution
-    - Discord sync hooks
+|     Group     |    Money    |   Status    |    Plugin     | Features                                                                                                                                                                                                         |
+|:-------------:|:-----------:|:-----------:|:-------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|    Backend    |    Free     | Prod Ready  |   NoorCore    | AntiCheat <br> AntiCheat Logging <br> Global Config <br> CrossPlugin API <br> Feature Flags                                                                                                                      |
+|    Backend    |    Free     | Initialized |   NoorMisc    | RTP Logic <br> Basic Commands <br> Other Surface-Level Stuff                                                                                                                                                     |
+|    Backend    |    Free     | Not Started |   NoorData    | SQL Connections <br> Async data loading <br> Other Data Stuff                                                                                                                                                    |
+|    Backend    |    Free     | Initialized |   NoorUtils   | Common Utilities <br> Text Formatting <br> Validation Logic <br> Logging <br> Metrics <br> Test Commands <br> Simulation Tools                                                                                   |
+|    Backend    |    Free     | Initialized |   NoorMenus   | GUI Handling <br> Unified Menu Style <br> Nesting Logic                                                                                                                                                          |
+|               |             |             |               |                                                                                                                                                                                                                  |
+|               |             |             |               |                                                                                                                                                                                                                  |
+|    Economy    |   Web API   |   Unsure    |    NoorEco    | Currency <br> Transactions <br> Tax hooks <br> Inflation Controls <br> Economy Events                                                                                                                            |
+|    Economy    |    Free     | Prod Ready  |   NoorJobs    | Base jobs <br> XP handling <br> Payouts <br> Job switching <br> Per-job event listeners                                                                                                                          |
+|    Economy    |    Paid     | Not Started |  NoorMastery  | Jobs Extension <br> Mastery paths <br> Mastery upgrades <br> Level 50+ perks <br> Cross-job unlocks                                                                                                              |
+|               |             |             |               |                                                                                                                                                                                                                  |
+|               |             |             |               |                                                                                                                                                                                                                  |
+| Monetization  |    Paid     | Not Started |   NoorRanks   | Rank definitions <br> Costs <br> Tier Tracking <br> Perks Registration <br> Prestige Hooks <br> Store Ranks                                                                                                      |
+| Monetization  |    Paid     | Not Started |  NoorCrates   | Low/Mid/High crates <br> Roll tables <br> Broadcast logic <br> Buy-for-all logic <br> Visual crate animations                                                                                                    |
+| Monetization  |    Paid     | Not Started | NoorSupporter | Vote logic <br> Subscription perks <br> XP Booster distribution <br> Discord sync hooks                                                                                                                          |
+|               |             |             |               |                                                                                                                                                                                                                  |
+|               |             |             |               |                                                                                                                                                                                                                  |
+|     Towny     |    Paid     |   Started   |   NoorTowns   | Chunk Claiming <br> Claim Perms <br> Personal/Town Claims <br> Visual Borders <br> Town Creation <br> Roles <br> Upgrades <br> Vaults <br> Assignment Tracking                                                   |
+|     Towny     |    Paid     | Not Started |  NoorNations  | Towns Extension <br> Nation creation <br> Alliances <br> Chat <br> Shared Perms                                                                                                                                  |
+|     Towny     |    Free     | Not Started |   NoorWarps   | Player Warps <br> Town warps <br> Nation warps <br> Warp limits by rank                                                                                                                                          |
+|     Towny     |    Paid     |   Started   |   NoorNPCs    | NPC spawning <br> Reputation system <br> Dialogue system <br> Inventory & Money <br> Loyalty/Happiness decay <br> Job assignment <br> Execution simulation <br> Roll chances <br> Fatigue system <br> Job resets |
+|               |             |             |               |                                                                                                                                                                                                                  |
+|               |             |             |               |                                                                                                                                                                                                                  |
+|   Entities    |    Free     |   Started   | NoorEntities  | Custom Mob Handling <br> Drop chances <br> Spawn circumstances <br> AI handling                                                                                                                                  |
+|               |             |             |               |                                                                                                                                                                                                                  |
+|               |             |             |               |                                                                                                                                                                                                                  |
+|     Items     |    Free     | Prod Ready  |   NoorItems   | Custom Item Handling <br> Metadata handling <br> Custom tools/armor <br> Enchant rules <br> Durability Overrides <br> Special Behaviors <br> Kits Logic                                                          |
+|     Items     |    Paid     | Not Started |  NoorGeodes   | Shards/Catalysts <br> Roll logic <br> Perfect Chance Handling <br> Visual opening effects                                                                                                                        |
+|     Items     |    Paid     | Not Started | NoorCosmetics | Cosmetic Items logic <br> Cosmetic Slot Handling                                                                                                                                                                 |
+|               |             |             |               |                                                                                                                                                                                                                  |
+|               |             |             |               |                                                                                                                                                                                                                  |
+| Miscellaneous |    Paid     | Not Started |  NoorQuests   | Daily/Weekly quests <br> Rank-based quest pools <br> NPC quest hooks                                                                                                                                             |
+| Miscellaneous | Proprietary | Not Started |  NoorEvents   | Server-wide events                                                                                                                                                                                               |
+| Miscellaneous |    Paid     | Not Started | NoorDungeons  | Dungeon Generation <br> Dungeon Themes <br> Completion Rewards <br> Bosses                                                                                                                                       |
+| Miscellaneous |    Free     | Not Started |   NoorAdmin   | Moderation Tools <br> Player Inspections <br> Rollback Hooks <br> Staff-only commands                                                                                                                            |
