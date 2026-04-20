@@ -41,7 +41,7 @@
 > I feel making some of these commands into items might be more immersive
 > 
 > -Milo
-### Miner -> Helldiver (Nether Miner)
+### Miner → Helldiver (Nether Miner)
 |   Rank    | Level | Perks                                                                 |
 |:---------:|:-----:|:----------------------------------------------------------------------|
 |   Miner   |  10   | `/nightvision`                                                        |
@@ -53,7 +53,7 @@
 | Helldiver |  85   | Repair CD - 30 Min                                                    |
 | Helldiver |  100  | Ability to fly under y=40 <br> Unique Cosmetic                        |
 
-### Smelter -> Blacksmith (Tools/Armor Crafter)
+### Smelter → Blacksmith (Tools/Armor Crafter)
 |    Rank    | Level | Perks                                                                         |
 |:----------:|:-----:|:------------------------------------------------------------------------------|
 |  Smelter   |  10   | Ability to craft Coal Blocks from Charcoal                                    |
@@ -89,7 +89,7 @@
 | Wizard |  85   | Ability to brew Flight Potions of 5 Minutes           |
 | Wizard |  100  | Ability to brew +2 Level Potions <br> Unique Cosmetic |
 
-### Lumberjack → Forester (Mushrooms & Bonemealing)
+### Lumberjack → Forester (Mushrooms & Bone mealing)
 |    Rank    | Level | Perks                                   |
 |:----------:|:-----:|:----------------------------------------|
 | Lumberjack |  10   | Ability to blow leaves                  |
@@ -219,10 +219,10 @@ Once stationed, players can:
 ### Building
 - If a player has a town with no assigned builder, they may designate the NPC as a **builder**
 - NPCs have access to **10 preloaded house builds** by default
-- Players may copy their own builds and upload them as **schematics** to a personal schematic catalogue for NPCs to use *(may be level-dependent)*
+- Players may copy their own builds and upload them as **schematics** to a personal schematic catalogue for NPCs to use *(might be level-dependent)*
 - As NPCs complete more builds, they **level up**, reducing future build times
 - Server-provided builds have **predetermined build times between 2–5 hours**
-- Custom builds follow this formula:
+- Custom-builds follow this formula:
   - **Base rate:** 2 hours
   - **+10 seconds per block placed** (at level 1)
 
@@ -244,7 +244,7 @@ Towns organize groups of players around shared goals — building, job grinding,
 
 ### Nations
 
-Nations currently serve to **ally towns** and allow interaction within each other's territory. Governance features are planned but **not scheduled for Open Beta**.
+Nations currently serve to **Ally towns** and allow interaction within each other's territory. Governance features are planned but **not scheduled for Open Beta**.
 
 ---
 
@@ -314,7 +314,7 @@ Some incredibly rare equipment may display a **★ star** to indicate it is **"P
 - 10% Global/Universal Job Money Booster (1h): $10
 
 - 25% Global/Universal Job EXP Booster (1h): $25
-- 25% Global/Universal Job Money Booser (1h): $25
+- 25% Global/Universal Job Money Booster (1h): $25
 
 - 50% Global/Universal Job EXP & Money Booter (1h): $100
 
