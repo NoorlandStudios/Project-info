@@ -326,40 +326,128 @@ Some incredibly rare equipment may display a **★ star** to indicate it is **"P
 - TBD
 
 # Structure
-| Priority  |     Group     |    Money    |   Status    |    Plugin     | Features                                                                                                                                                                                                         |
-|:---------:|:-------------:|:-----------:|:-----------:|:-------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Open Beta |    Backend    |    Free     | Prod Ready  |   NoorCore    | AntiCheat <br> AntiCheat Logging <br> Global Config <br> CrossPlugin API <br> Feature Flags                                                                                                                      |
-| Open Beta |    Backend    |    Free     | Initialized |   NoorMisc    | RTP Logic <br> Basic Commands <br> Other Surface-Level Stuff                                                                                                                                                     |
-| Post-Beta |    Backend    |    Free     | Not Started |   NoorData    | SQL Connections <br> Async data loading <br> Other Data Stuff                                                                                                                                                    |
-| Open Beta |    Backend    |    Free     | Initialized |   NoorUtils   | Common Utilities <br> Text Formatting <br> Validation Logic <br> Logging <br> Metrics <br> Test Commands <br> Simulation Tools                                                                                   |
-|  Unknown  |    Backend    |    Free     | Initialized |   NoorMenus   | GUI Handling <br> Unified Menu Style <br> Nesting Logic                                                                                                                                                          |
-|           |               |             |             |               |                                                                                                                                                                                                                  |
-|           |               |             |             |               |                                                                                                                                                                                                                  |
-| Open Beta |    Economy    |   Web API   |   Unsure    |    NoorEco    | Currency <br> Transactions <br> Tax hooks <br> Inflation Controls <br> Economy Events                                                                                                                            |
-| Open Beta |    Economy    |    Free     | Prod Ready  |   NoorJobs    | Base jobs <br> XP handling <br> Payouts <br> Job switching <br> Per-job event listeners                                                                                                                          |
-| Post-Beta |    Economy    |    Paid     | Not Started |  NoorMastery  | Jobs Extension <br> Mastery paths <br> Mastery upgrades <br> Level 50+ perks <br> Cross-job unlocks                                                                                                              |
-|           |               |             |             |               |                                                                                                                                                                                                                  |
-|           |               |             |             |               |                                                                                                                                                                                                                  |
-| Open Beta | Monetization  |    Paid     | Not Started |   NoorRanks   | Rank definitions <br> Costs <br> Tier Tracking <br> Perks Registration <br> Prestige Hooks <br> Store Ranks                                                                                                      |
-| Post-Beta | Monetization  |    Paid     | Not Started |  NoorCrates   | Low/Mid/High crates <br> Roll tables <br> Broadcast logic <br> Buy-for-all logic <br> Visual crate animations                                                                                                    |
-| Post-Beta | Monetization  |    Paid     | Not Started | NoorSupporter | Vote logic <br> Subscription perks <br> XP Booster distribution <br> Discord sync hooks                                                                                                                          |
-|           |               |             |             |               |                                                                                                                                                                                                                  |
-|           |               |             |             |               |                                                                                                                                                                                                                  |
-| Open Beta |     Towny     |    Paid     |   Started   |   NoorTowns   | Chunk Claiming <br> Claim Perms <br> Personal/Town Claims <br> Visual Borders <br> Town Creation <br> Roles <br> Upgrades <br> Vaults <br> Assignment Tracking                                                   |
-| Post-Beta |     Towny     |    Paid     | Not Started |  NoorNations  | Towns Extension <br> Nation creation <br> Alliances <br> Chat <br> Shared Perms                                                                                                                                  |
-|  Unknown  |     Towny     |    Free     | Not Started |   NoorWarps   | Player Warps <br> Town warps <br> Nation warps <br> Warp limits by rank                                                                                                                                          |
-| Open Beta |     Towny     |    Paid     |   Started   |   NoorNPCs    | NPC spawning <br> Reputation system <br> Dialogue system <br> Inventory & Money <br> Loyalty/Happiness decay <br> Job assignment <br> Execution simulation <br> Roll chances <br> Fatigue system <br> Job resets |
-|           |               |             |             |               |                                                                                                                                                                                                                  |
-|           |               |             |             |               |                                                                                                                                                                                                                  |
-| Post-Beta |   Entities    |    Free     |   Started   | NoorEntities  | Custom Mob Handling <br> Drop chances <br> Spawn circumstances <br> AI handling                                                                                                                                  |
-|           |               |             |             |               |                                                                                                                                                                                                                  |
-|           |               |             |             |               |                                                                                                                                                                                                                  |
-| Open Beta |     Items     |    Free     | Prod Ready  |   NoorItems   | Custom Item Handling <br> Metadata handling <br> Custom tools/armor <br> Enchant rules <br> Durability Overrides <br> Special Behaviors <br> Kits Logic                                                          |
-| Open Beta |     Items     |    Paid     | Not Started |  NoorGeodes   | Shards/Catalysts <br> Roll logic <br> Perfect Chance Handling <br> Visual opening effects                                                                                                                        |
-| Post-Beta |     Items     |    Paid     | Not Started | NoorCosmetics | Cosmetic Items logic <br> Cosmetic Slot Handling                                                                                                                                                                 |
-|           |               |             |             |               |                                                                                                                                                                                                                  |
-|           |               |             |             |               |                                                                                                                                                                                                                  |
-| Open Beta | Miscellaneous |    Paid     | Not Started |  NoorQuests   | Daily/Weekly quests <br> Rank-based quest pools <br> NPC quest hooks                                                                                                                                             |
-| Post-Beta | Miscellaneous | Proprietary | Not Started |  NoorEvents   | Server-wide events                                                                                                                                                                                               |
-| Post-Beta | Miscellaneous |    Paid     | Not Started | NoorDungeons  | Dungeon Generation <br> Dungeon Themes <br> Completion Rewards <br> Bosses                                                                                                                                       |
-| Open Beta | Miscellaneous |    Free     | Not Started |   NoorAdmin   | Moderation Tools <br> Player Inspections <br> Rollback Hooks <br> Staff-only commands                                                                                                                            |
+| Priority  |     Group     |    Money     |   Status    |    Plugin     | Features                                                                                                                                                                                                         |
+|:---------:|:-------------:|:------------:|:-----------:|:-------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Open Beta |    Backend    |     Free     | Prod Ready  |   NoorCore    | AntiCheat <br> AntiCheat Logging <br> Global Config <br> CrossPlugin API <br> Feature Flags                                                                                                                      |
+| Open Beta |    Backend    |     Free     | Initialized |   NoorMisc    | RTP Logic <br> Basic Commands <br> Other Surface-Level Stuff                                                                                                                                                     |
+| Post-Beta |    Backend    |     Free     | Not Started |   NoorData    | SQL Connections <br> Async data loading <br> Other Data Stuff                                                                                                                                                    |
+| Open Beta |    Backend    |     Free     | Initialized |   NoorUtils   | Common Utilities <br> Text Formatting <br> Validation Logic <br> Logging <br> Metrics <br> Test Commands <br> Simulation Tools                                                                                   |
+|  Unknown  |    Backend    |     Free     | Initialized |   NoorMenus   | GUI Handling <br> Unified Menu Style <br> Nesting Logic                                                                                                                                                          |
+|           |               |              |             |               |                                                                                                                                                                                                                  |
+|           |               |              |             |               |                                                                                                                                                                                                                  |
+| Open Beta |    Economy    | Web API $3-5 |   Unsure    |    NoorEco    | Currency <br> Transactions <br> Tax hooks <br> Inflation Controls <br> Economy Events                                                                                                                            |
+| Open Beta |    Economy    |     Free     | Prod Ready  |   NoorJobs    | Base jobs <br> XP handling <br> Payouts <br> Job switching <br> Per-job event listeners                                                                                                                          |
+| Post-Beta |    Economy    |  Paid $3-5   | Not Started |  NoorMastery  | Jobs Extension <br> Mastery paths <br> Mastery upgrades <br> Level 50+ perks <br> Cross-job unlocks                                                                                                              |
+|           |               |              |             |               |                                                                                                                                                                                                                  |
+|           |               |              |             |               |                                                                                                                                                                                                                  |
+| Open Beta | Monetization  |  Paid $3-5   | Not Started |   NoorRanks   | Rank definitions <br> Costs <br> Tier Tracking <br> Perks Registration <br> Prestige Hooks <br> Store Ranks                                                                                                      |
+| Post-Beta | Monetization  |  Paid $1-3   | Not Started |  NoorCrates   | Low/Mid/High crates <br> Roll tables <br> Broadcast logic <br> Buy-for-all logic <br> Visual crate animations                                                                                                    |
+| Post-Beta | Monetization  |  Paid $1-3   | Not Started | NoorSupporter | Vote logic <br> Subscription perks <br> XP Booster distribution <br> Discord sync hooks                                                                                                                          |
+|           |               |              |             |               |                                                                                                                                                                                                                  |
+|           |               |              |             |               |                                                                                                                                                                                                                  |
+| Open Beta |     Towny     |  Paid $3-5   |   Started   |   NoorTowns   | Chunk Claiming <br> Claim Perms <br> Personal/Town Claims <br> Visual Borders <br> Town Creation <br> Roles <br> Upgrades <br> Vaults <br> Assignment Tracking                                                   |
+| Post-Beta |     Towny     |  Paid $2-4   | Not Started |  NoorNations  | Towns Extension <br> Nation creation <br> Alliances <br> Chat <br> Shared Perms                                                                                                                                  |
+|  Unknown  |     Towny     |     Free     | Not Started |   NoorWarps   | Player Warps <br> Town warps <br> Nation warps <br> Warp limits by rank                                                                                                                                          |
+| Open Beta |     Towny     |  Paid $3-5   |   Started   |   NoorNPCs    | NPC spawning <br> Reputation system <br> Dialogue system <br> Inventory & Money <br> Loyalty/Happiness decay <br> Job assignment <br> Execution simulation <br> Roll chances <br> Fatigue system <br> Job resets |
+|           |               |              |             |               |                                                                                                                                                                                                                  |
+|           |               |              |             |               |                                                                                                                                                                                                                  |
+| Post-Beta |   Entities    |     Free     |   Started   | NoorEntities  | Custom Mob Handling <br> Drop chances <br> Spawn circumstances <br> AI handling                                                                                                                                  |
+|           |               |              |             |               |                                                                                                                                                                                                                  |
+|           |               |              |             |               |                                                                                                                                                                                                                  |
+| Open Beta |     Items     |     Free     | Prod Ready  |   NoorItems   | Custom Item Handling <br> Metadata handling <br> Custom tools/armor <br> Enchant rules <br> Durability Overrides <br> Special Behaviors <br> Kits Logic                                                          |
+| Open Beta |     Items     |  Paid $1-3   | Not Started |  NoorGeodes   | Uses both Items and Crates <br> Shards/Catalysts <br> Perfect Chance Handling                                                                                                                                    |
+| Post-Beta |     Items     |  Paid $1-3   | Not Started | NoorCosmetics | Cosmetic Items logic <br> Cosmetic Slot Handling                                                                                                                                                                 |
+|           |               |              |             |               |                                                                                                                                                                                                                  |
+|           |               |              |             |               |                                                                                                                                                                                                                  |
+| Post-Beta |    Feature    |  Paid $2-4   | Not Started |   NoorFish    | Fishing Overrides <br> Pool chances <br> Pool Criteria <br> Weight Handling <br> Fish Uses                                                                                                                       |
+| Post-Beta |    Feature    |  Paid $5-10  | Not Started | NoorDungeons  | Dungeon Generation <br> Dungeon Themes <br> Completion Rewards <br> Bosses                                                                                                                                       |
+| Post-Beta |    Feature    |  Paid $3-5   | Not Started |  NoorCooking  | Cooking Station logic <br> Recipe Handling <br> Dish Stats                                                                                                                                                       |
+|           |               |              |             |               |                                                                                                                                                                                                                  |
+|           |               |              |             |               |                                                                                                                                                                                                                  |
+| Open Beta | Miscellaneous |  Paid $1-3   | Not Started |  NoorQuests   | Daily/Weekly quests <br> Rank-based quest pools <br> NPC quest hooks                                                                                                                                             |
+| Post-Beta | Miscellaneous |     N/A      | Not Started |  NoorEvents   | Server-wide events                                                                                                                                                                                               |
+| Open Beta | Miscellaneous |     Free     | Not Started |   NoorAdmin   | Moderation Tools <br> Player Inspections <br> Rollback Hooks <br> Staff-only commands                                                                                                                            |
+
+# Monetization (Through content)
+
+> This section is made purely for the sake of building up not only a player community, but also a contributor community. I'll lay out my ideas below
+> 
+> -Milo
+
+## Plugin Pricing
+This was outlined above, dumbass [Go read it](#structure)
+
+---
+
+## Plugin Dependency Bundles
+
+Plugins that extend or inherit from another paid plugin cannot be purchased standalone without the parent. When a user attempts to buy a dependent plugin without owning the parent, the storefront forces a bundle purchase at a **5–10% discount** off the combined price.
+
+This prevents users from purchasing extensions they can't use, and rewards full ecosystem adoption.
+ 
+---
+
+## Community Config Pack Marketplace
+
+Most plugins load content through YAML config files (items, entities, crates, etc.). The marketplace hosts a community section where creators can upload and sell config packs for these plugins.
+
+### Platform Cut (Standalone)
+- Creators set their own price
+- We take a **20% cut** per sale
+- Example: a \$5 pack → creator earns \$4.00, we earn $1.00
+---
+
+## Curated Bundles
+
+When a community pack meets a quality bar, it may be selected for an official **Curated Bundle** - a themed collection of packs that serve a cohesive server style (e.g. a Fantasy Bundle containing a weapons pack, a creatures pack, a structures pack, etc.).
+
+### Pricing
+- Bundle price = sum of each included pack's standalone price, with **$0.50 added per pack that uses a free plugin**
+- A **5% discount** is applied to the total
+- We take a **5% cut** of each bundle sale
+### Creator Revenue (Curated)
+- Remaining 95% is split proportionally based on each pack's standalone price
+- Creators earn **more per sale in a bundle than standalone**
+- Free-plugin pack creators who were earning nothing now receive a cut
+### Example
+| Pack                       | Standalone Price       | Standalone Earnings (80%) | Bundle Earnings (proportional share of 95%) |
+|----------------------------|------------------------|---------------------------|---------------------------------------------|
+| User1 – Fantasy Weapons    | $4.00                  | $3.20                     | $3.608                                      |
+| User2 – Fantasy Creatures  | $3.00                  | $2.40                     | $2.706                                      |
+| User3 – Fantasy Fishing    | $2.50                  | $2.00                     | $2.255                                      |
+| User4 – Fantasy Structures | $0.00                  | $0.00                     | $0.451                                      |
+| **Bundle Total**           | \$10.00x0.95=**$9.50** | —                         | **\$9.02 to creators <br> $0.48 to us**     |
+
+### Curation Standards
+Curated status is selective and must remain meaningful. Criteria include content quality, config documentation, balance, and update history. Packs are not curated indiscriminately — the label is what drives conversions.
+
+If a curated pack becomes unmaintained after a plugin update, it is either pulled from the bundle, replaced, or maintained internally, since the platform's name is attached to it.
+ 
+---
+
+## Competition Bundles
+
+On a regular cadence (roughly quarterly), we run **themed community competitions**. These are primarily a community-building initiative, not a revenue driver.
+
+### How It Works
+1. A specific theme is announced (e.g. *Undead Siege*, *Merchant Guild*)
+2. Creators submit packs privately — no public submissions to avoid popularity contests
+3. We select **5–10 packs** across three internal categories
+4. Selected packs are bundled at a **static price**, split **evenly** among all selected creators
+5. **We take no cut** — the effort to review and test submissions is low, and the goal is community building
+### Selection Categories
+
+| Category | Slots | Criteria                                                                                                            |
+|---|---|---------------------------------------------------------------------------------------------------------------------|
+| **Theme Interpretation** | 2–4 packs | Creatively interpreted the theme, even if execution isn't perfectly polished                                        |
+| **Newcomer Spotlight** | 1–2 packs | From newer creators; if content is promising but rough, we collaborate with the creator to polish it before release |
+| **Quality & Polish** | 2–4 packs | Exceptionally well-executed content that raises the bundle's overall ceiling                                        |
+
+These categories are an internal selection framework only — from the creator's perspective, they are simply selected. Category overlap is handled with internal flexibility.
+
+### Design Principles
+- Themes are specific enough to produce cohesive results, broad enough for creative interpretation
+- The newcomer slots and collaborative polish process actively develop the creator pipeline, not just reward those already experienced
+- Even revenue splits and no platform cut keep the format perceived as genuine community celebration
+- Quarterly cadence keeps momentum without burning out the submission pool
+ 
