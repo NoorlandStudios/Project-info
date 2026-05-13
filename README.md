@@ -267,6 +267,12 @@ Some incredibly rare equipment may display a **★ star** to indicate it is **"P
 - Perfect items have **all base enchantments upgraded by one level** compared to standard variants
 - Perfect items do **not** have Unbreaking — instead, they are permanently **Unbreakable**
 
+## Blueprints
+
+Blueprints are a gacha system allowing you toget a random item from a given set.
+
+You can buy a random blueprint from the crafter in exchange for 16 assorted scraps. You can unlock the ability to buy specific blueprints from the crafter in exchange for 2 stacks of the corresponding scrap, this costs 32x of that scrap per blueprint.
+
 # Donator Store
 ## Ranks
 |   Rank    | Price | Perks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
