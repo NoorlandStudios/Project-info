@@ -273,6 +273,14 @@ Blueprints are a gacha system allowing you to get a random item from a given set
 
 You can buy a random blueprint from the crafter in exchange for 16 assorted scraps. You can unlock the ability to buy specific blueprints from the crafter in exchange for 2 stacks of the corresponding scrap, this costs 32x of that scrap per blueprint.
 
+Rolls have a pity system where each rolls give a set amount of Essence. Using a set amount of Essence you can conjure any given item in the set unless a given item has conjuring disabled.
+
+The function for a given rolls Essence is as follows, where E is the resulting essence, m is the max amount given (When the chance is 100%), C is the normalized percentage, and k is the curve.
+
+m defaults to 50, while k defaults to 1.5
+
+$E=floor\left(\left(m-1\right)\cdot\left(\frac{C}{1}\right)^{k}\right)+1$
+
 # Donator Store
 ## Ranks
 |   Rank    | Price | Perks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
