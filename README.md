@@ -238,11 +238,11 @@ Once stationed, players can:
 
 Towns organize groups of players around shared goals — building, job grinding, or NPC farming/production — and encourage collaboration.
 
-| Upgrade | Increment | Starting Cost | Max |
-|---|---|---|---|
-| **Claims** | +100 per upgrade, increasing in cost each time | — | 5,000 (49 upgrades) |
-| **Outposts** | 1 at a time, each costing twice the last | $25,000 | 10 |
-| **Town Vaults** | 1 at a time, each costing twice the last | $5,000 | 10 |
+| Upgrade         | Increment                                      | Starting Cost | Max                 |
+|-----------------|------------------------------------------------|---------------|---------------------|
+| **Claims**      | +100 per upgrade, increasing in cost each time | —             | 5,000 (49 upgrades) |
+| **Outposts**    | 1 at a time, each costing twice the last       | $25,000       | 10                  |
+| **Town Vaults** | 1 at a time, each costing twice the last       | $5,000        | 10                  |
 
 ---
 
@@ -299,7 +299,7 @@ $E=floor\left(\left(m-1\right)\cdot\left(\frac{C}{1}\right)^{k}\right)+1$
 | Tier | Price/Month | Perks                                                                                                                                                                                                                                                        |
 |:----:|:-----------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  I   |     $5      | Tiered Cosmetics <br> Discord Role & Chat <br> Gradient `/nick` <br> `/hat` <br> +1 Large Weekly [Crate](#crates) <br> 1x Weekly 5% Global Universal Jobs XP Booster (4h a piece, cannot be paused, cannot be sold) <br> Access to Sub Feature Votes         |
-| II   |     $15     | Tiered Cosmetics <br> Discord Role & Chat <br> Gradient `/nick` <br> `/hat` <br> +3 Large Weekly [Crates](#crates) <br> 1x Weekly 10% Global Universal Jobs XP Booster (4h a piece, cannot be paused, cannot be sold) <br> Access to Sub Feature Suggestions |
+|  II  |     $15     | Tiered Cosmetics <br> Discord Role & Chat <br> Gradient `/nick` <br> `/hat` <br> +3 Large Weekly [Crates](#crates) <br> 1x Weekly 10% Global Universal Jobs XP Booster (4h a piece, cannot be paused, cannot be sold) <br> Access to Sub Feature Suggestions |
 | III  |     $25     | Tiered Cosmetics <br> Discord Role & Chat <br> Gradient `/nick` <br> `/hat` <br> +5 Large Weekly [Crates](#crates) <br> 1x Weekly 15% Global Universal Jobs XP Booster (4h a piece, cannot be paused, cannot be sold) <br> Access to Sub Feature Suggestions |
 
 ## Crates
@@ -455,11 +455,11 @@ On a regular cadence (roughly quarterly), we run **themed community competitions
 5. **We take no cut** — the effort to review and test submissions is low, and the goal is community building
 ### Selection Categories
 
-| Category | Slots | Criteria                                                                                                            |
-|---|---|---------------------------------------------------------------------------------------------------------------------|
+| Category                 | Slots     | Criteria                                                                                                            |
+|--------------------------|-----------|---------------------------------------------------------------------------------------------------------------------|
 | **Theme Interpretation** | 2–4 packs | Creatively interpreted the theme, even if execution isn't perfectly polished                                        |
-| **Newcomer Spotlight** | 1–2 packs | From newer creators; if content is promising but rough, we collaborate with the creator to polish it before release |
-| **Quality & Polish** | 2–4 packs | Exceptionally well-executed content that raises the bundle's overall ceiling                                        |
+| **Newcomer Spotlight**   | 1–2 packs | From newer creators; if content is promising but rough, we collaborate with the creator to polish it before release |
+| **Quality & Polish**     | 2–4 packs | Exceptionally well-executed content that raises the bundle's overall ceiling                                        |
 
 These categories are an internal selection framework only — from the creator's perspective, they are simply selected. Category overlap is handled with internal flexibility.
 
